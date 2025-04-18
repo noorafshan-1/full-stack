@@ -154,6 +154,7 @@ const EmployeeComponent = () => {
                   className={`form-control ${errors.email ? "is-invalid" : ""}`}
                   onChange={(e) => setEmail(e.target.value)}
                 >
+                
                 </input>
                 {errors.email && (
                   <div className="invalid-feedback">{errors.email} </div>
