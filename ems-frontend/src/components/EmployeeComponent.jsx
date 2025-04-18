@@ -120,7 +120,8 @@ const EmployeeComponent = () => {
                     errors.firstName ? "is-invalid" : ""
                   }`}
                   onChange={(e) => setFirstName(e.target.value)}
-                ></input>
+                >
+                </input>
                 {errors.firstName && (
                   <div className="invalid-feedback">{errors.firstName} </div>
                 )}
@@ -136,7 +137,8 @@ const EmployeeComponent = () => {
                     errors.lastName ? "is-invalid" : ""
                   }`}
                   onChange={(e) => setLastName(e.target.value)}
-                ></input>
+                >
+                </input>
                 {errors.lastName && (
                   <div className="invalid-feedback">{errors.lastName} </div>
                 )}
@@ -151,7 +153,8 @@ const EmployeeComponent = () => {
                   value={email}
                   className={`form-control ${errors.email ? "is-invalid" : ""}`}
                   onChange={(e) => setEmail(e.target.value)}
-                ></input>
+                >
+                </input>
                 {errors.email && (
                   <div className="invalid-feedback">{errors.email} </div>
                 )}
