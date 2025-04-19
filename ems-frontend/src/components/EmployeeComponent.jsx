@@ -65,7 +65,6 @@ const EmployeeComponent = () => {
     }
   }
   
-
   function validateForm() {
     let valid = true;
 
